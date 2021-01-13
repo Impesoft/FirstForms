@@ -20,10 +20,6 @@ namespace _20210112Dag1AdvandedC
             InitializeComponent();
         }
 
-        private void DateOfBirth_ValueChanged(object sender, EventArgs e)
-        {
-  
-        }
 
         private void HowOld_Load(object sender, EventArgs e)
         {

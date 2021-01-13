@@ -80,7 +80,6 @@ namespace _20210112Dag1AdvandedC
             this.DateOfBirth.TabIndex = 2;
             this.DateOfBirth.Value = new System.DateTime(2021, 1, 12, 0, 0, 0, 0);
             this.DateOfBirth.CloseUp += new System.EventHandler(this.DateOfBirth_CloseUp);
-            this.DateOfBirth.ValueChanged += new System.EventHandler(this.DateOfBirth_ValueChanged);
             // 
             // NaamLabel
             // 

@@ -37,7 +37,6 @@ namespace _20210112Dag1AdvandedC
             this.FavoFilm = new System.Windows.Forms.TextBox();
             this.FavoKleur = new System.Windows.Forms.TextBox();
             this.CorrecteZin = new System.Windows.Forms.Label();
-            this.RommelZin = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.leeftijd = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -113,15 +112,6 @@ namespace _20210112Dag1AdvandedC
             this.CorrecteZin.TabIndex = 7;
             this.CorrecteZin.Text = "Correcte zin";
             // 
-            // RommelZin
-            // 
-            this.RommelZin.AutoSize = true;
-            this.RommelZin.Location = new System.Drawing.Point(121, 277);
-            this.RommelZin.Name = "RommelZin";
-            this.RommelZin.Size = new System.Drawing.Size(70, 15);
-            this.RommelZin.TabIndex = 8;
-            this.RommelZin.Text = "Rommel zin";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -139,14 +129,13 @@ namespace _20210112Dag1AdvandedC
             this.leeftijd.TabIndex = 10;
             this.leeftijd.TextChanged += new System.EventHandler(this.leeftijd_TextChanged);
             // 
-            // Form1
+            // Rommelzin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.leeftijd);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.RommelZin);
             this.Controls.Add(this.CorrecteZin);
             this.Controls.Add(this.FavoKleur);
             this.Controls.Add(this.FavoFilm);
@@ -155,7 +144,7 @@ namespace _20210112Dag1AdvandedC
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Rommelzin";
             this.Text = "Rommelzin";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace _20210112Dag1AdvandedC
 {
     static class Program
@@ -17,7 +16,7 @@ namespace _20210112Dag1AdvandedC
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NumbersQuiz());
+            Application.Run(new MainForm());
         }
     }
 }
